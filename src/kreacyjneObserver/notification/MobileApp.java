@@ -2,9 +2,9 @@ package kreacyjneObserver.notification;
 
 import kreacyjneObserver.Order.Order;
 
-public class MobileApp {
+public class MobileApp implements Observer{
 
-    public void updateOrderStatus(Order order){
+    public void update(Order order){
         System.out.println("App - Zamówienie numer: "+order.getOrderNumber()+" zmieniło status na: "+order.getOrderStatus());
     }
 }
