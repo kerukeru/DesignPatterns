@@ -9,7 +9,7 @@ public class Main {
         GameEngine ge2 = GameEngine.getInstance();
 
 
-        System.out.println(ge==ge2);
+        System.out.println(ge==ge2);//
 
 
 
